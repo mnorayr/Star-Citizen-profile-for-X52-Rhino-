@@ -27,7 +27,7 @@ def zipdir(path, zipf):
 
 
 def backup(folder_to_backup = r'G:\StarCitizen\LIVE\USER\Client\0\Controls\Mappings' , 
-           folder_to_backup_into = r'L:\Dropbox\Gaming\Star Citizen\Star-Citizen-profile-for-X52-Rhino-\zips'):
+           folder_to_backup_into = r'L:\Dropbox\Gaming\Star Citizen\Star-Citizen-profile-for-X56-Rhino\zips'):
     '''
     This function backs up a folder to dropbox
     '''
@@ -61,7 +61,7 @@ def main():
     print('Argument List:', str(sys.argv))
 
     folder_to_backup = r'G:\StarCitizen\LIVE\USER\Client\0\Controls\Mappings'
-    folder_to_backup_into = r'L:\Dropbox\Gaming\Star Citizen\Star-Citizen-profile-for-X52-Rhino-\zips'
+    folder_to_backup_into = r'L:\Dropbox\Gaming\Star Citizen\Star-Citizen-profile-for-X56-Rhino\zips'
 
     # backup(str(sys.argv)[0], str(sys.argv)[1]) # run the main function with the arguments from the command line
     backup (folder_to_backup=folder_to_backup, folder_to_backup_into = folder_to_backup_into ) # run the main function with the arguments given in the notebook
